@@ -15,6 +15,9 @@
 		50555C76243E5E0200593048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50555C74243E5E0200593048 /* LaunchScreen.storyboard */; };
 		50555C81243E5E0200593048 /* Program_7_WeaklandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555C80243E5E0200593048 /* Program_7_WeaklandTests.swift */; };
 		50555C8C243E5E0200593048 /* Program_7_WeaklandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555C8B243E5E0200593048 /* Program_7_WeaklandUITests.swift */; };
+		50555C9B243E5F7A00593048 /* sanibel-island-fl-the.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50555C9A243E5F7A00593048 /* sanibel-island-fl-the.jpg */; };
+		50555C9D243E617600593048 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555C9C243E617600593048 /* TabViewController.swift */; };
+		50555CA1243E66A600593048 /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555CA0243E66A600593048 /* GPSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		50555C87243E5E0200593048 /* Program 7 WeaklandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Program 7 WeaklandUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50555C8B243E5E0200593048 /* Program_7_WeaklandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program_7_WeaklandUITests.swift; sourceTree = "<group>"; };
 		50555C8D243E5E0200593048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50555C9A243E5F7A00593048 /* sanibel-island-fl-the.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sanibel-island-fl-the.jpg"; sourceTree = "<group>"; };
+		50555C9C243E617600593048 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		50555CA0243E66A600593048 /* GPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +85,12 @@
 		50555C5D243E5E0000593048 = {
 			isa = PBXGroup;
 			children = (
+				50555C9C243E617600593048 /* TabViewController.swift */,
 				50555C68243E5E0000593048 /* Program 7 Weakland */,
 				50555C7F243E5E0200593048 /* Program 7 WeaklandTests */,
 				50555C8A243E5E0200593048 /* Program 7 WeaklandUITests */,
 				50555C67243E5E0000593048 /* Products */,
+				50555C9A243E5F7A00593048 /* sanibel-island-fl-the.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +111,7 @@
 				50555C6B243E5E0000593048 /* SceneDelegate.swift */,
 				50555C6D243E5E0000593048 /* ViewController.swift */,
 				50555C6F243E5E0000593048 /* Main.storyboard */,
+				50555CA0243E66A600593048 /* GPSViewController.swift */,
 				50555C72243E5E0200593048 /* Assets.xcassets */,
 				50555C74243E5E0200593048 /* LaunchScreen.storyboard */,
 				50555C77243E5E0200593048 /* Info.plist */,
@@ -235,6 +244,7 @@
 				50555C76243E5E0200593048 /* LaunchScreen.storyboard in Resources */,
 				50555C73243E5E0200593048 /* Assets.xcassets in Resources */,
 				50555C71243E5E0000593048 /* Main.storyboard in Resources */,
+				50555C9B243E5F7A00593048 /* sanibel-island-fl-the.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50555C9D243E617600593048 /* TabViewController.swift in Sources */,
+				50555CA1243E66A600593048 /* GPSViewController.swift in Sources */,
 				50555C6E243E5E0000593048 /* ViewController.swift in Sources */,
 				50555C6A243E5E0000593048 /* AppDelegate.swift in Sources */,
 				50555C6C243E5E0000593048 /* SceneDelegate.swift in Sources */,
