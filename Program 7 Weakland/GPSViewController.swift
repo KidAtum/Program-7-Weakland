@@ -5,11 +5,11 @@
 //  Created by Lucas Weakland on 4/8/20.
 //  Copyright © 2020 Lucas Weakland. All rights reserved.
 //
-
 import UIKit
 import CoreLocation
 
 class GPSViewController: UIViewController, CLLocationManagerDelegate {
+    
     @IBOutlet weak var distanceLabel: UILabel!
     
     let locMan: CLLocationManager = CLLocationManager()
@@ -38,9 +38,11 @@ class GPSViewController: UIViewController, CLLocationManagerDelegate {
     
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // Second Tab
         locMan.delegate = self
         locMan.desiredAccuracy = kCLLocationAccuracyThreeKilometers
         locMan.distanceFilter = 1609;
@@ -48,9 +50,12 @@ class GPSViewController: UIViewController, CLLocationManagerDelegate {
         locMan.startUpdatingLocation()
         startLocation = nil
         
+      
+        
+        
         
         // Do any additional setup after loading the view.
-    }
+    
     
 
     /*
@@ -63,4 +68,5 @@ class GPSViewController: UIViewController, CLLocationManagerDelegate {
     }
     */
 
+}
 }
